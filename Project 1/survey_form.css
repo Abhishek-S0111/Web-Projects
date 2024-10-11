@@ -1,0 +1,86 @@
+body{
+    background:#559988;
+    
+    font-family: serif;
+  
+  }
+  
+  body p, h1{
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  form{
+    margin: 0.5em auto;
+    max-width: 80%;
+    min-width: 40%;
+    width: 40vw;
+    background-color: #55005520;
+    border-radius: 8px;
+    height: auto;
+    font-size: 1.2em;
+  }
+  
+  fieldset{
+    border: none;
+    width: 88%;
+    margin: auto auto;
+  }
+  
+  label{
+    
+    display:block;
+    margin-bottom: 0.8em;
+    width: 90%
+  
+  }
+  
+  #name, #email, #number{
+    margin: 0.8em 0;
+    width: 100%;
+    height: 2.5em;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 2px #000000aa;
+    border-radius: 8px;
+    
+  }
+  
+  #profession legend, #recommend legend, #fav legend, #improve legend, #comment legend{
+    margin-bottom: 0.8em;
+  }
+  
+  #dropdown, #fav-feature{
+    width: 100%;
+    height: 2.5em;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 2px #000000aa;
+    border-radius: 8px;
+  }
+  
+  #recommendation{
+    margin: 0.8em 0.7em 0.8em auto;
+    
+  }
+  
+  input[type="checkbox"]{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0.6em 0.1em;
+  }
+  
+  textarea{
+    display:block;
+    width:100%;
+    height: 20%;
+    border-radius: 5px;
+  }
+  
+  #submit{
+    display: block;
+    margin: 0.1em auto;
+    width: 5em;
+    font-size: 0.9em;
+    box-shadow: 2px 2px black;
+    border-radius: 5px
+  }

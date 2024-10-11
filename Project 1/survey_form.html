@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey_form.css">
+  </head>
+  <body>
+    <h1 id="title">Game Survey Form</h1>
+    <p id="description">Thank you for taking the time to fill this game survey</p>
+    <form id="survey-form">
+      <fieldset><br>
+        <label for="name" id="name-label">
+          Name
+          <input type="text" id="name" placeholder="Enter your name" required/>
+        </label>
+        <label for="email" id="email-label">
+          <legend>Email</legend>
+          <input id="email" type="email" placeholder="Enter your Email" required/>
+        </label>
+        <label for="number" id="number-label">
+          <legend>Age (Optional)</legend>
+          <input type="number" id="number" min="10" max="99" placeholder="Age"/>
+        </label>
+        <label for="current-role" id="profession">
+          <legend>Which option best describes your current profession?</legend>
+          <select id="dropdown">
+            <option value="">Select a profession</option>
+            <option value="1">Student</option>
+            <option value="2">Full time job</option>
+            <option value="3">Full time learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="recommendation" id="recommend">
+          <legend>
+            Would you recommend this survey to a friend?
+          </legend>
+          <input type="radio" id="recommendation" name="recommendation" value="definitely" checked/>Definitely <br>
+          <input type="radio" id="recommendation" name="recommendation" value="maybe"/>Maybe <br>
+          <input type="radio" id="recommendation" name="recommendation" value="unsure"/>Not Sure
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="fav-feature" id="fav">
+          <legend>What was your first gaming device?</legend>
+          <select id="fav-feature" required>
+            <option value="">Select an Option</option>
+            <option value="1">Mobile</option>
+            <option value="2">Desktop</option>
+            <option value="3">Console</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="improvements" id="improve">
+          <legend>
+            What is your most favourite game of all time?  (Check all that apply)
+          </legend>
+          <input type="checkbox" name="improvements" value="1"/> Dark Souls 1<br>
+          <input type="checkbox" name="improvements" value="2"/> Dark Souls 2<br>
+          <input type="checkbox" name="improvements" value="3"/> Dark Souls 3<br>
+          <input type="checkbox" name="improvements" value="4"/> A Day before<br>
+          <input type="checkbox" name="improvements" value="5"/> GTA 5<br>
+          <input type="checkbox" name="improvements" value="6"/> Stellar Blade<br>
+          <input type="checkbox" name="improvements" value="7"/> Armoured Core: Fires of Rubicon<br>
+          <input type="checkbox" name="improvements" value="8"/> Hello Neighbour<br>
+          <input type="checkbox" id="improvements" value="9"/> Pacify<br>
+          <input type="checkbox" id="improvements" value="10"/> Subnautica<br>
+          <input type="checkbox" id="improvements" value="11"/> Elden Ring<br>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="comment">
+          <legend>
+            Any Comments or Suggestions?
+          </legend>
+          <textarea type="text" placeholder="Enter your comments here...">
+          </textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
