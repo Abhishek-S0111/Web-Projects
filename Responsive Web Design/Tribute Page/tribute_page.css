@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, serif;
+  }
+  
+  body{
+    background-color: #000000;
+    color: aliceblue;
+  }
+  
+  #title{
+    text-align: center;
+  }
+  
+  #img-div{
+    display: block;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: 0 auto;
+    border: 4px blue border;
+  }
+  
+  #img-caption{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1em auto;
+  }
+  
+  #tribute-info{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justified;
+  }
