@@ -39,3 +39,7 @@ main > .project-category > h2, main > .section > h2{
     width: 0.2em;
     background-color: black;
 }
+
+.project-category > a{
+    display: block
+}
