@@ -19,7 +19,8 @@
     color: black;
     width: 60%;
     margin: 0 auto;
-    border: 4px blue border;
+    border: 4px brown double;
+    margin-bottom: 10px;
   }
   
   #img-caption{
