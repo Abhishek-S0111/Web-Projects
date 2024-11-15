@@ -45,11 +45,11 @@ body{
     
   }
   
-  #profession legend, #recommend legend, #fav legend, #improve legend, #comment legend{
+  #profession legend, #recommend legend, #device legend, #favourites legend, #comment legend{
     margin-bottom: 0.8em;
   }
   
-  #dropdown, #fav-feature{
+  #dropdown, #first-device{
     width: 100%;
     height: 2.5em;
     border: 3px solid #ffffff;
