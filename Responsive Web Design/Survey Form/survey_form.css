@@ -71,6 +71,8 @@ body{
   
   textarea{
     display:block;
+    max-width: 100%;
+    resize: vertical;
     width:100%;
     height: 20%;
     border-radius: 5px;
