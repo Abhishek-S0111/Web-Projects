@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #172622;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-window{
+    height: 10vh;
+    width: 20vw;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0; left:0; right:0; bottom:0;
+    margin: auto auto;
+    border-radius: 20px;
+}
+
+.main-button{
+    height: 100%; width: 100%;
+    font-size: 3em;
+    border-radius: 20px;
+    box-shadow: 50px 52px 520px 5px mistyrose;
+}
