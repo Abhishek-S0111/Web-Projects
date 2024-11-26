@@ -1,4 +1,6 @@
-*{
+@media (min-width: 427px){
+  
+  *{
     box-sizing: border-box;
     
   }
@@ -74,11 +76,40 @@
     display: block;
     font-size: 1.2em;
   }
+
+}
   
   
-  
-  @media(max-width: 600px){
-    #navbar{
-      display: none;
-    }
+@media(max-width: 600px){
+
+  *{
+    box-sizing: border-box;
+  }  
+
+  body{
+    background-color: #9a9a9a;
+    font-family: verdana, serif;
   }
+
+  nav{
+    display: none;
+  }
+
+  h1{
+    text-align: center; 
+  }
+
+  h1 span{
+    display: block;
+  }
+
+  main header{
+    font-weight: 700;
+    text-align: center;
+  }
+
+}
+/*
+Here I am wanting to make the data appear after clicking the dropdown button which I want to place in the headers for each section. 
+For reference : Please remember to look at the way the before quiz rundowns are given for a course at https://netacad.com
+*/
