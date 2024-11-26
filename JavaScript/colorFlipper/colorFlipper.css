@@ -8,8 +8,8 @@ body{
 }
 
 .main-window{
-    height: 10vh;
-    width: 20vw;
+    height: 10%;
+    width: 20%;
     background-color: antiquewhite;
     position: absolute;
     top: 0; left:0; right:0; bottom:0;
@@ -19,7 +19,7 @@ body{
 
 .main-button{
     height: 100%; width: 100%;
-    font-size: 3em;
+    font-size: 2em;
     border-radius: 20px;
     box-shadow: 50px 52px 520px 5px mistyrose;
 }
