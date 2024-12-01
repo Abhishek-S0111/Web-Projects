@@ -1,8 +1,8 @@
 const menu = document.querySelector("#menu")
-const menuBar = document.querySelector("menuBar")
+const navlinks = document.querySelector(".nav-links")
+const navbar = document.querySelector(".navbar div .navbar-links")
 
-menuBar.onclick = createMenu
-
-function createMenu() {
-    menuBar.style.display = "block"; 
-}
+menu.addEventListener('click', () => {
+    navlinks.classList.toggle('nav-active')
+    navbar.classList.toggle('disappear')
+})

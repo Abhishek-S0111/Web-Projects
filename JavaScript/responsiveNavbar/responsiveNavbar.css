@@ -49,25 +49,26 @@ nav div a:hover, nav div img:hover{
     height: 7vh;
 }
 
-#menuBar{
-    background-color: rgb(178, 178, 178);
-    color:rgb(0, 0, 0);
-    border-radius: 0 0 10px 10px;
-    
-} 
-
-#menuBar ul{
-    list-style: none;
+@media (min-width: 768px){
+.nav-links{
+    display: none;
+}
 }
 
-#menuBar ul li{
-    padding: 5px;
-    border-bottom: 1px solid black;
-    
+@media (max-width: 767px){
+
+.navbar div{
+    display: none;
 }
 
-#menuBar ul li:hover{
-    background-color: aliceblue;
+.nav-link{
+    display: block;
+    padding: 20px;
+}
+
+.nav-link:nth-of-type(4){
+    border-bottom: 2px solid blue;
+}
 }
 
 footer{
@@ -75,4 +76,19 @@ footer{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.nav-active{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 7vw;
+    gap: 20px;
+}
+
+.disappear{
+    display: none;
 }
